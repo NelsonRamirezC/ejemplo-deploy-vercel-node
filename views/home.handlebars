@@ -1,0 +1,36 @@
+<section class="about">
+    <h1>Acerca de mí</h1>
+    <h2>{{about.name}}</h2>
+    <p>{{about.description}}</p>
+</section>
+
+<section class="skills">
+    <h1>Skills</h1>
+    <ul>
+        {{#each skills}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+</section>
+
+<section class="projects">
+    <h1>Proyectos</h1>
+    <div class="project-list">
+        {{#each projects}}
+            <div class="project">
+                <h2>{{name}}</h2>
+                <p>{{description}}</p>
+                <a href="{{url}}" target="_blank">Ver más</a>
+            </div>
+        {{/each}}
+    </div>
+</section>
+
+<section class="contact">
+    <h1>Contacto</h1>
+    <ul>
+        <li><strong>Email:</strong> {{contact.email}}</li>
+        <li><strong>Teléfono:</strong> {{contact.phone}}</li>
+        <li><strong>Ubicación:</strong> {{contact.location}}</li>
+    </ul>
+</section>

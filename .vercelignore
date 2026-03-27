@@ -1,0 +1,5 @@
+// Permite ignorar archivos y carpetas que no deben subirse a Vercel
+node_modules
+.DS_Store
+.env
+*.log

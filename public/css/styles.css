@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header, section {
+    margin: 2rem auto;
+    max-width: 900px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+h1, h2 {
+    color: #1a73e8;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+.skills li {
+    background: #e3f2fd;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.project-list {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.project {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.project a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+.contact li {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    margin-top: 2rem;
+}
+.footer .social a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer .social a:hover {
+    color: #1a73e8;
+}
